@@ -155,7 +155,7 @@ function CrearFormRes(filaA, colB) {
     for (i = 0; i < filaA; i++) {
         var salto = document.createElement("BR");
         for (j = 0; j < colB; j++) {
-            var casilla = document.createElement("LABEL");
+            var casilla = document.createElement("P");
             casilla.setAttribute("type", "text");
             casilla.setAttribute("size", "4");
             casilla.setAttribute("name", "valorRes" + i + j);
