@@ -158,7 +158,7 @@ function CrearFormRes(filaA, colB) {
             var casilla = document.createElement("INPUT");
             casilla.setAttribute("type", "text");
             casilla.setAttribute("size", "4");
-            casilla.setAttribute("name", "valorR" + i + j);
+            casilla.setAttribute("name", "valorRes" + i + j);
             casilla.readOnly = "true";
             fRes.appendChild(casilla);
         }
