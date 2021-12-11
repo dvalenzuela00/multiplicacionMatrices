@@ -113,7 +113,7 @@ function CrearFormularios(filA, colA, filB, colB) {
             var casilla = document.createElement("INPUT");
             casilla.setAttribute("type", "text");
             casilla.setAttribute("size", "4");
-            casilla.setAttribute("name", "text");
+            casilla.setAttribute("name", "valor" + fliA + ColA);
             fA.appendChild(casilla);
         }
         fA.appendChild(salto);
@@ -124,7 +124,7 @@ function CrearFormularios(filA, colA, filB, colB) {
             var casilla = document.createElement("INPUT");
             casilla.setAttribute("type", "text");
             casilla.setAttribute("size", "4");
-            casilla.setAttribute("name", "text");
+            casilla.setAttribute("name", "valor"+ fliB + ColB);
             fB.appendChild(casilla);
         }
         fB.appendChild(salto);
